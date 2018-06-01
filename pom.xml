@@ -18,6 +18,10 @@
 		<version.arquillian.jacoco>1.0.0.Alpha9</version.arquillian.jacoco>
 	</properties>
 
+	<build>
+		<defaultGoal>clean install</defaultGoal>
+	</build>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
